@@ -5,13 +5,13 @@ using namespace std;
 
 int main() {
     int numYears;
-    cout << "Enter the number of years: ";
+    cout << "Enter the number of semester: ";
     cin >> numYears;
 
     vector<double> sgpa(numYears);
 
     for (int year = 0; year < numYears; ++year) {
-        cout << "Enter SGPA for year " << year + 1 << ": ";
+        cout << "Enter SGPA for semester " << year + 1 << ": ";
         cin >> sgpa[year];
     }
 
